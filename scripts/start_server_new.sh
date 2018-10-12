@@ -1,3 +1,4 @@
 #/bin/sh
-cd ../target
-java -jar ./spring-boot-web-jsp-1.0.war
+ls
+pwd
+java -jar ../target/spring-boot-web-jsp-1.0.war
