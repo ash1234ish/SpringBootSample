@@ -4,6 +4,5 @@ hooks:
   ApplicationStart:
     - location: scripts/start_server_new.sh
       timeout: 300
-      runas: root
 
   
