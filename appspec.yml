@@ -5,9 +5,5 @@ hooks:
     - location: scripts/start_server_new.sh
       timeout: 300
       runas: root
-  ApplicationStop:
-    - location: scripts/stop_server_new.sh
-      timeout: 300
-      runas: root
 
   
