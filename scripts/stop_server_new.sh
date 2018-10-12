@@ -1,2 +1,2 @@
 ﻿#/bin/sh
-kill $(cat ./pid.file)
+#kill $(cat ./pid.file)
