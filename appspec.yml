@@ -1,5 +1,8 @@
 version: 0.0
 os: linux
+files:
+  - source: target/spring-boot-web-jsp-1.0.war
+    destination: /tmp
 hooks:
   ApplicationStart:
     - location: scripts/start_server_new.sh
